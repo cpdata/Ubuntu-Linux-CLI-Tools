@@ -6,6 +6,8 @@ First move the files to your webserver then make sure your apache2 config file i
 All you need is the domain name to setup a site. You can even generate a self signed SSL certificate and use the CSR to get the
 real SSL certificate once you are ready. 
 
+Direction on how to use each file is in the comments at the top of each file.
+
 makewebsite.sh = one script to set up multiple sites on one server and enable them in apache virtual host config
 
 createFTPUser.sh = easily add new FTP users
@@ -19,6 +21,6 @@ Requirements*
 - Terminal or SSH access to target System
 
  If you have questinos or need help you can find my email in the code or email at charlie [aat] cp datadesigns.com and I am
- more than willing to help. I also welcome any Ideas for features anyone would like added. More Linux CLI tools will be 
- uploaded soon.
+ more than willing to help. I also welcome any ideas for features anyone would like added. More Linux CLI tools will be 
+ uploaded soon. I hope you find this useful and saves someone some time.
 
