@@ -2,7 +2,7 @@
 # myscript.sh
 #Description: Creates a new bash script with execution permission
 # and opens nano
-#AUTHOR: Charles P. Cross - All Rights Reserved
+#AUTHOR: Charles P. Cross
 #Usage: -d : option deletes a script   ./newscript.sh -d /home/users/scripts script.sh
 # Pass script name optional to create a new script ./newscript.sh myscript.sh
 # Script is created in BASE directory which you need to specify
