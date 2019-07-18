@@ -7,7 +7,9 @@ All you need is the domain name to setup a site. You can even generate a self si
 real SSL certificate once you are ready. 
 
 makewebsite.sh = one script to set up multiple sites on one server and enable them in apache virtual host config
+
 createFTPUser.sh = easily add new FTP users
+
 destroywebsite.sh = easily destroy a websites files and configs then disable from apache
 
 Requirements*
