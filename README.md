@@ -14,6 +14,8 @@ createFTPUser.sh = easily add new FTP users
 
 destroywebsite.sh = easily destroy a websites files and configs then disable from apache
 
+myscript.sh = easily setup new bash scripts
+
 Requirements*
 - Root or Sudo Access to system
 - Basic Commandline skills
