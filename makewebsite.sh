@@ -5,8 +5,9 @@
 # AUTHOR : Charles Paul Cross - charlie@cpdatadesigns.com
 #
 # DESCRIPTION : Guides user with terminal prompt questions to configure and setup a new website on an 
-# 				linux/apache2 webserver. This is Useful for shared hosting. Apache Root must be set to /var/www else #				this file needs to be modified to where apache2 has route access. 
-#				The root directory of the new site will be /var/www/SITENAMEHERE/public_html
+# 		linux/apache2 webserver. This is Useful for shared hosting. Apache Root must be set to /var/www 
+#		else this file needs to be modified to where apache2 has root access. 
+#		The root directory of the new site will be /var/www/SITENAMEHERE/public_html
 #
 # 1)Creates proper directory tree for a new website using the new user inputed domain name
 # 2)If provided zip file will be extracted to the proper folder to populate the site
@@ -32,7 +33,7 @@
 # Extended Commands: ./makewebsite.sh {DOMAIN_NAME} {FULL_PATH_TO_ZIP_FILE} {BOOL IS_USING_SSL}
 # Example Use: sudo ./makewebsite.sh domain.com domain.com.zip 1
 #
-# COPYRIGHT: Any reproduction or use of this file is forbidden unless permission is given by the author.
+# LICENCE: 
 #
 #
 
